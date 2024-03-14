@@ -66,7 +66,7 @@ endmodule
 
 **Truthtable**
 
-"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-03-14 204649.png"
+![Uploading Screenshot 2024-03-14 204649.png…]()
 
 **Timing Diagram**
 
