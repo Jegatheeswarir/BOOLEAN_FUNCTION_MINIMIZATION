@@ -62,15 +62,16 @@ endmodule
 
 **RTL realization**
 
-"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-03-14 204705.png"
+![Screenshot 2024-03-14 204705](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/0a10619a-73cb-4a84-a31a-9bb14cd0dc9d)
+
 
 **Truthtable**
 
-![Uploading Screenshot 2024-03-14 204649.png…]()
+![Screenshot 2024-03-14 204649](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/ecad92e4-0426-4fb6-b7f2-4fad705705c7)
 
 **Timing Diagram**
 
-"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-03-14 204718.png"
+![Screenshot 2024-03-14 204718](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/1e6807eb-0770-4273-9540-74fc7e6de45d)
 
 **Result:**
 
