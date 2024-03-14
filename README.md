@@ -40,33 +40,37 @@ Developed by: JEGATHEESWARI R
 RegisterNumber: 212223230092
 
 ```
-
-module ex2(A,B,C,D,F1);
-input A,B,C,D;
-output F1;
-wire x1,x2,x3,x4,x5;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-
-assign F1=x1|x2|x3|x4|x5;
+module verilog1(a,b,c,d,w,x,y,z,F1,F2);
+input a,b,c,d,w,x,y,z;
+output F1,F2;
+wire A1,A2,A3,A4,A5,B1,B2,B3,B4,B5;
+assign A1= (~a&(~b)&(~c)&(~d));
+assign A2= (a&c&(~d));
+assign A3= ((~b)&c&(~d));
+assign A4= (~a&b&c&d);
+assign A5= (b&(~c)&d);
+assign F1= A1|A2|A3|A4|A5;
+assign B1= (x&(~y)&z);
+assign B2= (~x&(~y)&z);
+assign B3= (~w&x&y);
+assign B4= (w&(~x)&y);
+assign B5= (w&y&z);
+assign F2= B1|B2|B3|B4|B5;
 endmodule
 
 ```
 
 **RTL realization**
 
-![image](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/6033d722-2ea5-430a-aa78-0fda51935510)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-03-14 204705.png"
 
 **Truthtable**
 
-![image](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/68f1f4b8-24b8-4069-b6df-b1f2afc09a89)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-03-14 204649.png"
 
 **Timing Diagram**
 
-![image](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/709010a0-383f-4ff8-9023-b61016cfed15)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2024-03-14 204718.png"
 
 **Result:**
 
