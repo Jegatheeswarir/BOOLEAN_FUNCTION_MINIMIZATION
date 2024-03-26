@@ -55,15 +55,16 @@ endmodule
 ```
 
 **RTL realization**
+
 ![exp2rtl](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/cc27fd29-f308-4008-819c-88e97edd7a68)
 
+**TRUTH TABLE**
 
-
-**Truthtable**
 ![truth2](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/d2724ae7-2e63-4420-ac42-f8fd8ef3edde)
 
 
 **Timing Diagram**
+
 ![waveform2](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/bae5ba1b-aad9-4262-8147-05bd2884bcb6)
 
 
