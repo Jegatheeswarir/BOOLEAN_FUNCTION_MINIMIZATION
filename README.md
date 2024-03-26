@@ -56,6 +56,8 @@ endmodule
 
 **RTL realization**
 
+**output**
+
 ![exp2rtl](https://github.com/Jegatheeswarir/BOOLEAN_FUNCTION_MINIMIZATION/assets/144871077/cc27fd29-f308-4008-819c-88e97edd7a68)
 
 **Truth table**
